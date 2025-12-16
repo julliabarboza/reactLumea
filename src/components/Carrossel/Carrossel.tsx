@@ -1,6 +1,9 @@
 import banner_1 from '../../assets/img/banner1.webp'
 import banner_2 from '../../assets/img/banner2.webp'
 import banner_3 from '../../assets/img/banner3.png'
+import banner_4 from '../../assets/img/banner1_maquiagem.webp'
+import banner_5 from '../../assets/img/banner2_maquiagem.webp'
+import banner_6 from '../../assets/img/banner3_maquiagem.jpeg'
 
 export default function Carrossel() {
     return (
@@ -19,6 +22,15 @@ export default function Carrossel() {
                 </div>
                 <div className="carousel-item">
                     <img src={banner_3} className="d-block w-100" alt="..." />
+                </div>
+                <div className="carousel-item">
+                    <img src={banner_4} className="d-block w-100" alt="..." />
+                </div>
+                <div className="carousel-item">
+                    <img src={banner_5} className="d-block w-100" alt="..." />
+                </div>
+                <div className="carousel-item">
+                    <img src={banner_6} className="d-block w-100" alt="..." />
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

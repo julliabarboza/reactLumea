@@ -56,12 +56,12 @@ export default function Produtos() {
 
                     <span>
                         {
-                            termo_pesquisado ? `Resultados para: ${termo_pesquisado}` : "Skin Care"
-                            // categorias
-                            // ? categorias.charAt(0).toUpperCase() + categorias.slice(1).toLowerCase()
-                            // : termo_pesquisado
-                            // ? `Resultados para: "${termo_pesquisado}"`
-                            // : "Nenhum filtro aplicado"
+                            // termo_pesquisado ? `Resultados para: ${termo_pesquisado}` : "Skin Care"
+                            categoria
+                            ? categoria.charAt(0).toUpperCase() + categoria.slice(1).toLowerCase()
+                            : termo_pesquisado
+                            ? `Resultados para: "${termo_pesquisado}"`
+                            : "Skin Care"
                         }
                     </span>
                     < hr />

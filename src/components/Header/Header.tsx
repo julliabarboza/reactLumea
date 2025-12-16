@@ -61,7 +61,7 @@ export default function Header() {
                                     <Nav.Item>
                                         <nav className="container_esquerda container_palavras" id="container_esquerda">
                                             <a href={"/"}>Skin Care</a>
-                                            <a href={"/maquiagem"}>Maquiagem</a>
+                                            <a href={"/produtos/maquiagem"}>Maquiagem</a>
                                             <a href={"/produtos/corpo&banho"}>Corpo & Banho</a>
                                         </nav>
                                     </Nav.Item>
